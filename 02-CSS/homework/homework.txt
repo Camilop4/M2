@@ -1,0 +1,5 @@
+* Framework
+son herramientas que nos ayudan a utilizar varios estilos 
+* Preprocesador
+es un programa que nos ayuda con la sintexis de nuestro codigo.
+* Responsive website
