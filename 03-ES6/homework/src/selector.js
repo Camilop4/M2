@@ -16,7 +16,7 @@ var traverseDomAndCollectElements = function(matchFunc, startEl = document.body)
   // itera el arbol hijo para buscar mas elementos que matchien
   for (let I = 0; i < startEl.children.length; i++) {
     let resultado = traverseDomAndCollectElements(matchFunc, startEl.children[i])
-    // hacemos un spred para juntar los dos arrays que nose quedan
+    // hacemos un spred para juntar los dos arrays que quedan
     resultSet = [...resultSet, ...resultado]; 
   }
   return resultSet;
