@@ -1,3 +1,6 @@
+
+
+
 // Crear un array vacío llamado 'toDoItems'
 // Tu codigo acá:
 var toDoItems = [];
